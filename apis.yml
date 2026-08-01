@@ -1,8 +1,24 @@
 aid: probably-genetic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/probably-genetic.png
 name: Probably Genetic
-description: 'Probably Genetic is a company surfaced as a portfolio company of threshold-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Probably Genetic is a healthcare company focused on rare disease diagnosis through
+  genetic testing. It offers free targeted genetic testing programs for specific rare conditions
+  (including alpha-mannosidosis, cerebrotendinous xanthomatosis, GRN-FTD, and SYNGAP1-related
+  disorder), insurance-billed testing paired with genetic counselors, at-home saliva/cheek-swab
+  collection kits, and physician-ordered genetic counseling. The platform has served more than
+  200,000 patients and partners with 50+ patient advocacy groups to advance rare disease research.
+  This is a consumer-facing healthcare provider with no public API or developer program surface.'
 url: https://raw.githubusercontent.com/api-evangelist/probably-genetic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Genetic Testing
+- Rare Disease
+- Diagnostics
+- Genetic Counseling
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/probably-genetic-domain-security.yml
 - type: Website
   url: https://www.probablygenetic.com/
+- type: Support
+  url: https://www.probablygenetic.com/faq
+- type: TermsOfService
+  url: https://www.probablygenetic.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.probablygenetic.com/legal/website-privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
