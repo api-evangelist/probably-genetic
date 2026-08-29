@@ -31,6 +31,9 @@ description: 'Probably Genetic is a healthcare company focused on rare disease d
   200,000 patients and partners with 50+ patient advocacy groups to advance rare disease research.
   This is a consumer-facing healthcare provider with no public API or developer program surface.'
 url: https://raw.githubusercontent.com/api-evangelist/probably-genetic/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a consumer-facing healthcare provider with no public API or developer program surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
